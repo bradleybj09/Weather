@@ -4,7 +4,7 @@ Hi! A couple of notes...
 
 You'll need to get a key for https://www.weatherapi.com and add it to the local.properties file 
 that exists in the root of the project, as follows:
-`weather_api_key="your-key-here"`
+```weather_api_key="your-key-here"```
 Don't forget the quotes, and the backticks here are just for formatting purposes.
 
 Let me know if you run into any problems with the gradle/idea files... I didn't set up the gitignore
