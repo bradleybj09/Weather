@@ -1,1 +1,15 @@
 /build
+local.properties
+.gradle/
+*.iml
+.idea/
+.DS_Store
+*.apk
+*.aar
+*.ap_
+*.aab
+output-metadata.json
+bin/
+gen/
+out/
+
