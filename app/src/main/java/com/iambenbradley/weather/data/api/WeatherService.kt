@@ -8,8 +8,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
@@ -37,20 +35,10 @@ interface WeatherService {
 @InstallIn(SingletonComponent::class)
 class WeatherServiceProviderModule {
 
-    val loggingInterceptor = HttpLoggingInterceptor().apply {
-        level = HttpLoggingInterceptor.Level.BODY // Set log level
-    }
-
-    val okHttpClient = OkHttpClient.Builder()
-        .addInterceptor(loggingInterceptor)
-        .build()
-
-
     @Suppress("JSON_FORMAT_REDUNDANT")
     @Provides
     @Singleton
     fun provideRetrofit(): Retrofit = Retrofit.Builder()
-        .client(okHttpClient)
         .baseUrl("https://api.weatherapi.com/v1/")
         .addConverterFactory(
             Json {
