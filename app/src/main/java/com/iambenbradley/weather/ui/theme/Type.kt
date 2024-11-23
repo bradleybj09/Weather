@@ -29,7 +29,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeDegrees,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = PrimaryText,
     ),
@@ -38,7 +37,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeCity,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = PrimaryText,
     ),
@@ -47,7 +45,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeDetailContent,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = PrimaryText,
     ),
@@ -56,7 +53,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeResultDegrees,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = PrimaryText,
     ),
@@ -65,7 +61,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeResultCity,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = PrimaryText,
     ),
@@ -74,7 +69,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeDetailHeader,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = DetailHeaderText,
     ),
@@ -83,26 +77,8 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = TextSizeDetailContent,
-        lineHeight = 24.sp,
         letterSpacing = 0.5.sp,
         color = DetailContentText,
     ),
-
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
-    ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
 )
 

@@ -40,7 +40,7 @@ fun DetailCard(
     ) {
         DetailInfo(
             header = stringResource(R.string.humidity),
-            data = humidity,
+            data = "$humidity%",
         )
         DetailInfo(
             header = stringResource(R.string.uv),
@@ -48,7 +48,7 @@ fun DetailCard(
         )
         DetailInfo(
             header = stringResource(R.string.feels_like),
-            data = feelsLike,
+            data = "$feelsLike°",
         )
     }
 }

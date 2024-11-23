@@ -4,4 +4,16 @@
     <dimen name="detail_height">75.dp</dimen>
     <dimen name="detail_corner_radius">16.dp</dimen>
     <dimen name="detail_padding">16.dp</dimen>
+    <dimen name="large_weather_width">123.dp</dimen>
+    <dimen name="small_weather_width">83.dp</dimen>
+    <dimen name="top_padding">44.dp</dimen>
+    <dimen name="search_padding">24.dp</dimen>
+    <dimen name="no_city_padding">47.dp</dimen>
+    <dimen name="no_city_padding_top">330.dp</dimen>
+    <dimen name="city_padding_top">170.dp</dimen>
+    <dimen name="city_height">260.dp</dimen>
+    <dimen name="standard_space_between">8.dp</dimen>
+    <dimen name="large_space_between">16.dp</dimen>
+    <dimen name="search_results_padding_top">122.dp</dimen>
+
 </resources>
