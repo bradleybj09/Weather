@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_width">274.dp</dimen>
+    <dimen name="detail_height">75.dp</dimen>
+    <dimen name="detail_corner_radius">16.dp</dimen>
+    <dimen name="detail_padding">16.dp</dimen>
+</resources>

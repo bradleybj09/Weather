@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="no_city_selected">No City Selected</string>
+    <string name="search_for_city">Please Search For A City</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv">UV</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="search_location">Search Location</string>
+    <string name="location_indicator">Location Indicator</string>
 </resources>
